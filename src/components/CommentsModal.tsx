@@ -38,7 +38,7 @@ export function CommentsModal({ isOpen, onClose, comments, onAddComment, onAddRe
               </div>
               {c.replies && c.replies.length > 0 && (
                 <div className="ml-11 space-y-2">
-                  {c.replies.map((r) => (
+                  {c.replies?.map((r) => (
                     <div key={r.id} className="flex gap-3">
                       <div className="h-7 w-7 rounded-full bg-white/20 flex items-center justify-center text-[10px]">{r.username[0]?.toUpperCase()}</div>
                       <div>
