@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* App layout primitives */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+#scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll {
+  max-width: 500px;
+  margin: auto;
+}

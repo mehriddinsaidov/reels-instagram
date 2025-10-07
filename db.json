@@ -1,0 +1,95 @@
+{
+  "reels": [
+    {
+      "id": "1",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "username": "alice",
+      "caption": "Morning vibes in the city 🌇",
+      "likes": 126,
+      "shares": 12,
+      "createdAt": "2025-10-01T08:00:00.000Z",
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "bob",
+          "username": "bob",
+          "text": "Love this!",
+          "createdAt": "2025-10-01T09:00:00.000Z",
+          "replies": [
+            {
+              "id": "r1",
+              "userId": "carol",
+              "username": "carol",
+              "text": "Same!",
+              "createdAt": "2025-10-01T09:30:00.000Z"
+            }
+          ]
+        },
+        {
+          "id": "c6cd3ff1-2dcd-48d7-be93-58fbb4cec960",
+          "createdAt": "2025-10-06T17:01:38.757Z",
+          "text": "simple",
+          "username": "you",
+          "userId": "you",
+          "replies": [
+            {
+              "id": "2f4e5894-60c3-4805-b979-1fd0b27cd6f4",
+              "createdAt": "2025-10-06T17:01:45.048Z",
+              "text": "hello",
+              "username": "you",
+              "userId": "you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "username": "dave",
+      "caption": "Coffee art session ☕️🎨",
+      "likes": 85,
+      "shares": 5,
+      "createdAt": "2025-10-02T10:00:00.000Z",
+      "comments": []
+    },
+    {
+      "id": "3",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "username": "eve",
+      "caption": "Weekend hike 🥾⛰️",
+      "likes": 302,
+      "shares": 33,
+      "createdAt": "2025-10-03T15:00:00.000Z",
+      "comments": [
+        {
+          "id": "fd806ddc-30f7-4a8a-ab40-0b8814fe8b9b",
+          "createdAt": "2025-10-06T17:09:02.429Z",
+          "text": "simple",
+          "username": "you",
+          "userId": "you"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "username": "frank",
+      "caption": "Street performance 🎷",
+      "likes": 44,
+      "shares": 2,
+      "createdAt": "2025-10-04T18:20:00.000Z",
+      "comments": []
+    },
+    {
+      "id": "5",
+      "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+      "username": "grace",
+      "caption": "Night drive 🚗✨",
+      "likes": 512,
+      "shares": 61,
+      "createdAt": "2025-10-05T21:10:00.000Z",
+      "comments": []
+    }
+  ]
+}
